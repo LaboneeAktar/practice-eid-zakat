@@ -1,3 +1,38 @@
 body {
     font-family: 'Roboto Slab', serif;
 }
+
+h1 {
+    font-size: 45px;
+}
+
+
+.bgimage {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.727), rgba(0, 0, 0, 0.7)), url(images/eid.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+    width: 1290px;
+
+}
+
+.finish {
+    color: white;
+    position: absolute;
+    width: 700px;
+    height: 150px;
+    left: 219px;
+    top: 180px;
+}
+
+.ayat {
+    font-size: 25px;
+}
+
+.donate {
+    text-decoration: none;
+    color: whitesmoke;
+    background-image: linear-gradient(darkred, rgb(250, 51, 51));
+    padding: 15px 10px;
+    border-radius: 6px;
+}
